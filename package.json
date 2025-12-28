@@ -1,0 +1,23 @@
+{
+  "name": "hcx.challengeautomation-web-api.cypress",
+  "version": "1.0.0",
+  "description": "Desafio técnico HCXpert, com automação de testes end-to-end e api",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "api",
+    "web",
+    "desafio"
+  ],
+  "author": "Vinicius Santos",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^15.8.1"
+  }
+}
